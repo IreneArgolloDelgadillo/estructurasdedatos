@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ArbolB()
+comment1.params=
+comment1.target=boolean\ vacio()
+comment10.params=k
+comment10.target=edl.ListaSE\ getListaNivel(int)
+comment11.params=
+comment11.target=int\ estados()
+comment2.params=dato
+comment2.target=void\ insertarIzq(java.lang.Object)
+comment3.params=dato
+comment3.target=void\ insertarDer(java.lang.Object)
+comment4.params=
+comment4.target=ArbolB\ getIzq()
+comment5.params=
+comment5.target=ArbolB\ getDer()
+comment6.params=
+comment6.target=java.lang.Object\ eliminar()
+comment7.params=
+comment7.target=boolean\ esHoja()
+comment8.params=
+comment8.target=void\ preorden()
+comment9.params=
+comment9.target=edl.ListaSE\ postOrden()
+numComments=12

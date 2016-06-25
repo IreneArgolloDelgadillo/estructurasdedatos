@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ListaCSE()
+comment1.params=
+comment1.target=boolean\ vacio()
+comment10.params=act\ dato
+comment10.target=int\ indiceDe(edl.NodoSE,\ java.lang.Object)
+comment2.params=
+comment2.target=int\ tamano()
+comment3.params=act
+comment3.target=int\ tamano(edl.NodoSE)
+comment4.params=dato
+comment4.target=void\ insertar(java.lang.Object)
+comment5.params=dato
+comment5.target=void\ insertarInicio(java.lang.Object)
+comment6.params=
+comment6.target=java.lang.Object\ eliminarInicio()
+comment7.params=k
+comment7.target=java.lang.Object\ eleminarEn(int)
+comment8.params=k\ act
+comment8.target=java.lang.Object\ eliminarEn(int,\ edl.NodoSE)
+comment9.params=dato
+comment9.target=int\ indiceDe(java.lang.Object)
+comment9.text=public\ int\ indiceDe(T\ dato)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ int\ res;\ \r\n\ \ \ \ \ \ \ \ if(vacio()){\r\n\ \ \ \ \ \ \ \ \ \ \ \ res\ \=\ \ -1;\ \ \ \ \r\n\ \ \ \ \ \ \ \ }else{\r\n\ \ \ \ \ \ \ \ \ \ \ \ res\ \=\ \ indiceDe(dato,inicio);\r\n\ \ \ \ \ \ \ \ }\ \ \r\n\ \ \ \ \ \ \ \ return\ res;\r\n\ \ \ \ }\ \ \ \r\n\ \ \ \ private\ int\ indiceDe(T\ dato,NodoSE<T>\ act)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ int\ res\ \=\ 0;\r\n\ \ \ \ \ \ \ \ if(act.getDato().equals(dato))\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ res\ \=\ 0;\r\n\ \ \ \ \ \ \ \ }else\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(act.equals(fin))\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res\ \=\ -1;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ else\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ int\ r\ \=\ indiceDe(dato,act.getSig());\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if(r\ \!\=\ -1)\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res\ \=\ 1\ +\ r;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }else\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res\ \=\ -1;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ res;\ \ \ \ \r\n}
+numComments=11

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ColaDePrioridad()
+comment1.params=
+comment1.target=boolean\ vacio()
+comment2.params=dato
+comment2.target=void\ insertar(java.lang.Comparable)
+comment3.params=dato\ k
+comment3.target=void\ insertarEn(java.lang.Comparable,\ int)
+comment4.params=act\ dato\ k
+comment4.target=void\ insertarEn(edl.ListaSE,\ java.lang.Comparable,\ int)
+numComments=5
