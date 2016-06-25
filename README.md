@@ -1,0 +1,2 @@
+# estructurasdedatos
+lineas, no lineas
